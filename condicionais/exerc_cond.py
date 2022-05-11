@@ -440,7 +440,31 @@ else:
     print("Por favor, digite um número inteiro menor que 1000 e maior ou igual a 0")
 """
 
+x,y,z = input("Digite tres números: ").split("/")
 
+x = int(x)
+y = int(y)
+z = int(z)
+
+
+
+if z > x and z < y:
+    print("A")
+
+if x == y:
+    print("B")
+
+if x != y:
+    print("C")
+
+if x != y and y < 0:
+    print("D")
+    if z < 0:
+        w = "-"
+    else:
+        w = "+"
+
+print(w)
 
 
 
